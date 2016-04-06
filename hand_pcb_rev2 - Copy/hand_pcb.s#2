@@ -7002,6 +7002,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="U$11" library="445-eagle-lib" deviceset="THRUHOLEI2C" device=""/>
 <part name="U$12" library="445-eagle-lib" deviceset="THRUHOLEI2C" device=""/>
+<part name="IMF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
+<part name="PYF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
+<part name="TF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7124,6 +7127,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SUPPLY28" gate="GND" x="215.9" y="101.6"/>
 <instance part="U$11" gate="G$1" x="203.2" y="149.86"/>
 <instance part="U$12" gate="G$1" x="236.22" y="149.86"/>
+<instance part="IMF" gate="G$1" x="185.42" y="106.68" rot="R180"/>
+<instance part="PYF" gate="G$1" x="185.42" y="55.88" rot="R180"/>
+<instance part="TF" gate="G$1" x="185.42" y="5.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8483,6 +8489,27 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="HAND_MICRO" gate="G$1" pin="PTC7"/>
 <wire x1="93.98" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <label x="96.52" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="INDMID" gate="G$1" pin="NFAULT"/>
+<pinref part="IMF" gate="G$1" pin="P$1"/>
+<wire x1="180.34" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="PKYRNG" gate="G$1" pin="NFAULT"/>
+<pinref part="PYF" gate="G$1" pin="P$1"/>
+<wire x1="180.34" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="TF" gate="G$1" pin="P$1"/>
+<pinref part="THMB" gate="G$1" pin="NFAULT"/>
+<wire x1="185.42" y1="5.08" x2="180.34" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
