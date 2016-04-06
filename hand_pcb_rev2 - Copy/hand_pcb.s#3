@@ -7005,6 +7005,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="IMF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
 <part name="PYF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
 <part name="TF" library="445-eagle-lib" deviceset="TESTPAD" device=""/>
+<part name="C19" library="rcl" deviceset="C-US" device="C0402" value="0.1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7130,6 +7131,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="IMF" gate="G$1" x="185.42" y="106.68" rot="R180"/>
 <instance part="PYF" gate="G$1" x="185.42" y="55.88" rot="R180"/>
 <instance part="TF" gate="G$1" x="185.42" y="5.08" rot="R180"/>
+<instance part="C19" gate="G$1" x="66.04" y="-12.7"/>
 </instances>
 <busses>
 </busses>
@@ -7223,6 +7225,9 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="78.74" y1="-17.78" x2="81.28" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="78.74" y="-17.78"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
@@ -7364,6 +7369,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="78.74" y1="-15.24" x2="81.28" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-15.24" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-15.24" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="78.74" y="-15.24"/>
 </segment>
 <segment>
 <pinref part="HAND_MICRO" gate="G$1" pin="VDD"/>

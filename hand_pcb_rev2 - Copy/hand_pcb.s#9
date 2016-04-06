@@ -8253,14 +8253,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="109.22" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="EN1"/>
-<wire x1="33.02" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<label x="30.48" y="-12.7" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="N$12" class="0">
+<net name="EN6" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="EN2"/>
 <wire x1="30.48" y1="-15.24" x2="33.02" y2="-15.24" width="0.1524" layer="91"/>
@@ -8289,6 +8282,13 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U$7" gate="G$1" pin="EN2"/>
 <wire x1="-30.48" y1="-7.62" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-35.56" y="-7.62" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="EN5" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="EN1"/>
+<wire x1="33.02" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
+<label x="30.48" y="-12.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>

@@ -81,17 +81,17 @@
 <smd name="4" x="0.6" y="2.3" dx="0.6" dy="0.85" layer="1"/>
 <smd name="5" x="1.8" y="2.3" dx="0.6" dy="0.85" layer="1"/>
 <smd name="6" x="3" y="2.3" dx="0.6" dy="0.85" layer="1"/>
-<wire x1="-4.9" y1="2.8" x2="4.9" y2="2.8" width="0.127" layer="21"/>
-<wire x1="4.9" y1="2.8" x2="4.9" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="4.9" y1="-2.8" x2="3" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.8" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="-4.45" y1="2.8" x2="4.45" y2="2.8" width="0.127" layer="21"/>
+<wire x1="4.45" y1="2.8" x2="4.45" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="4.45" y1="-1.8" x2="3" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.8" x2="3" y2="-1" width="0.127" layer="21"/>
 <wire x1="3" y1="-1" x2="-3" y2="-1" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1" x2="-3" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.8" x2="-4.9" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="-4.9" y1="-2.8" x2="-4.9" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1" x2="-3" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.8" x2="-4.45" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-4.45" y1="-1.8" x2="-4.45" y2="2.8" width="0.127" layer="21"/>
 <rectangle x1="-3.65" y1="0.4" x2="3.65" y2="1.8" layer="39"/>
-<rectangle x1="-4.8" y1="-2.7" x2="-4.1" y2="-1.9" layer="1"/>
-<rectangle x1="4.1" y1="-2.7" x2="4.8" y2="-1.9" layer="1"/>
+<smd name="P$1" x="-4.15" y="-1.475" dx="0.7" dy="0.8" layer="1"/>
+<smd name="P$2" x="4.15" y="-1.475" dx="0.7" dy="0.8" layer="1"/>
 </package>
 <package name="DF57H-6P-BOTTOM">
 <description>DF57H-6P connector for bottom side pcb</description>
