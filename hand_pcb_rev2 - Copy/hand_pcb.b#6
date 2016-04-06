@@ -380,6 +380,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <text x="-1.27" y="1.27" size="1.27" layer="21" align="bottom-center">B</text>
 <text x="1.27" y="1.27" size="1.27" layer="21" align="bottom-center">G</text>
 </package>
+<package name="THRUHOLEI2C">
+<pad name="SDA" x="-1.27" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="SCL" x="1.27" y="0" drill="1.016" diameter="1.8796"/>
+<text x="-1.27" y="1.27" size="1.27" layer="21" align="bottom-center">D</text>
+<text x="1.27" y="1.27" size="1.27" layer="21" align="bottom-center">C</text>
+</package>
 </packages>
 </library>
 <library name="rcl">
@@ -1770,11 +1776,13 @@ design rules under a new name.</description>
 <element name="C18" library="rcl" package="C0603" value="" x="12.7" y="4.064" locked="yes" rot="R90"/>
 <element name="RED" library="445-eagle-lib" package="L0603" value="LED0603" x="32.1564" y="21.4884" rot="R65"/>
 <element name="GREEN" library="445-eagle-lib" package="L0603" value="LED0603" x="29.9974" y="23.7744" rot="R45"/>
-<element name="R14" library="rcl" package="R0603" value="100" x="31.496" y="20.32" rot="MR180"/>
+<element name="R14" library="rcl" package="R0603" value="100" x="31.496" y="20.0914" rot="MR180"/>
 <element name="R15" library="rcl" package="R0603" value="200" x="29.5148" y="22.6568" rot="MR270"/>
 <element name="R16" library="rcl" package="R0603" value="200" x="33.7058" y="24.13" rot="MR180"/>
-<element name="YELLOW" library="445-eagle-lib" package="L0603" value="LED0603" x="33.4772" y="24.003" rot="R135"/>
+<element name="YELLOW" library="445-eagle-lib" package="L0603" value="LED0603" x="33.528" y="24.0538" rot="R135"/>
 <element name="U$10" library="445-eagle-lib" package="THRUHOLE2" value="THRUHOLE2" x="33.4772" y="43.5356"/>
+<element name="U$11" library="445-eagle-lib" package="THRUHOLEI2C" value="THRUHOLEI2C" x="3.9878" y="5.8928" rot="R270"/>
+<element name="U$12" library="445-eagle-lib" package="THRUHOLEI2C" value="THRUHOLEI2C" x="2.3114" y="-6.985"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2076,7 +2084,7 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="4.914" x2="9.9958" y2="4.914" width="1.016" layer="1"/>
 <wire x1="9.9958" y1="4.914" x2="9.8806" y2="5.0292" width="1.016" layer="1"/>
 <via x="62.1538" y="44.2214" extent="1-16" drill="1.27"/>
-<via x="26.3652" y="30.7848" extent="1-16" drill="1.27"/>
+<via x="26.2382" y="30.8356" extent="1-16" drill="1.27"/>
 <via x="3.6576" y="23.5204" extent="1-16" drill="1.27"/>
 <via x="39.4716" y="2.9464" extent="1-16" drill="1.27"/>
 <contactref element="U$7" pad="G"/>
@@ -2091,15 +2099,15 @@ design rules under a new name.</description>
 <contactref element="R15" pad="2"/>
 <contactref element="R14" pad="2"/>
 <contactref element="R16" pad="2"/>
-<wire x1="31.8262" y1="19.2024" x2="30.1244" y2="19.2024" width="0.254" layer="16"/>
-<wire x1="30.1244" y1="19.2024" x2="29.5148" y2="19.812" width="0.254" layer="16"/>
-<wire x1="29.5148" y1="19.812" x2="29.5148" y2="21.8068" width="0.254" layer="16"/>
+<wire x1="31.8262" y1="19.2024" x2="29.8704" y2="19.2024" width="0.254" layer="16"/>
+<wire x1="29.8704" y1="19.2024" x2="29.5148" y2="19.4564" width="0.254" layer="16"/>
+<wire x1="29.5148" y1="19.4564" x2="29.5148" y2="21.8068" width="0.254" layer="16"/>
 <wire x1="34.5558" y1="24.13" x2="36.7148" y2="26.289" width="0.254" layer="16"/>
 <wire x1="36.7148" y1="26.289" x2="38.4556" y2="26.289" width="0.254" layer="16"/>
-<wire x1="32.346" y1="20.32" x2="32.346" y2="21.9202" width="0.254" layer="16"/>
+<wire x1="32.346" y1="20.0914" x2="32.346" y2="21.9202" width="0.254" layer="16"/>
 <wire x1="32.346" y1="21.9202" x2="34.5558" y2="24.13" width="0.254" layer="16"/>
 <wire x1="31.8262" y1="19.2024" x2="32.346" y2="19.7222" width="0.254" layer="16"/>
-<wire x1="32.346" y1="19.7222" x2="32.346" y2="20.32" width="0.254" layer="16"/>
+<wire x1="32.346" y1="19.7222" x2="32.346" y2="20.0914" width="0.254" layer="16"/>
 <contactref element="U$10" pad="G"/>
 <wire x1="34.7472" y1="43.5356" x2="34.7472" y2="41.021" width="1.27" layer="16"/>
 <wire x1="34.7472" y1="41.021" x2="36.703" y2="39.0652" width="1.27" layer="16"/>
@@ -3193,6 +3201,8 @@ design rules under a new name.</description>
 <wire x1="33.782" y1="48.9966" x2="32.8422" y2="49.9364" width="0.254" layer="1"/>
 <wire x1="44.8389" y1="40.5559" x2="45.7454" y2="39.6494" width="0.254" layer="1"/>
 <wire x1="21.5138" y1="20.4724" x2="21.5138" y2="21.2852" width="0.254" layer="2"/>
+<contactref element="U$11" pad="SDA"/>
+<wire x1="3.9878" y1="7.1628" x2="17.8562" y2="8.9018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL0">
 <contactref element="HAND_MICRO" pad="37"/>
@@ -3247,6 +3257,8 @@ design rules under a new name.</description>
 <wire x1="39.2684" y1="49.166828125" x2="39.153571875" y2="49.28165625" width="0.254" layer="2"/>
 <wire x1="46.7106" y1="38.7096" x2="47.6504" y2="39.6494" width="0.254" layer="1"/>
 <wire x1="22.6314" y1="20.1422" x2="22.6314" y2="21.6662" width="0.254" layer="2"/>
+<contactref element="U$11" pad="SCL"/>
+<wire x1="3.9878" y1="4.6228" x2="16.8021" y2="7.9366" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL1">
 <contactref element="HAND_MICRO" pad="55"/>
@@ -3257,6 +3269,8 @@ design rules under a new name.</description>
 <wire x1="24.25" y1="18.25" x2="23.2792" y2="18.25" width="0.254" layer="1"/>
 <wire x1="23.2792" y1="18.25" x2="22.225" y2="16.4846" width="0.254" layer="1"/>
 <wire x1="22.225" y1="16.4846" x2="18.9484" y2="16.4846" width="0.254" layer="1"/>
+<contactref element="U$12" pad="SCL"/>
+<wire x1="3.5814" y1="-6.985" x2="18.9484" y2="16.4846" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SDA1">
 <contactref element="HAND_MICRO" pad="56"/>
@@ -3270,6 +3284,8 @@ design rules under a new name.</description>
 <wire x1="22.9918" y1="18.75" x2="22.2806" y2="17.5562" width="0.254" layer="1"/>
 <wire x1="22.2806" y1="17.5562" x2="21.9964" y2="17.1958" width="0.254" layer="1"/>
 <wire x1="21.9964" y1="17.1958" x2="21.1582" y2="17.3228" width="0.254" layer="1"/>
+<contactref element="U$12" pad="SDA"/>
+<wire x1="1.0414" y1="-6.985" x2="21.1582" y2="17.3228" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="HAND_MICRO" pad="13"/>
@@ -3772,7 +3788,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="RED" pad="2"/>
 <contactref element="R14" pad="1"/>
-<wire x1="30.646" y1="20.32" x2="30.646" y2="21.756" width="0.254" layer="16"/>
+<wire x1="30.646" y1="20.0914" x2="30.646" y2="21.756" width="0.254" layer="16"/>
 <wire x1="30.646" y1="21.756" x2="31.115" y2="22.225" width="0.254" layer="16"/>
 <via x="31.115" y="22.225" extent="1-16" drill="0.381"/>
 <wire x1="31.115" y1="22.225" x2="32.481865625" y2="22.225" width="0.254" layer="1"/>
@@ -3782,9 +3798,9 @@ design rules under a new name.</description>
 <contactref element="GREEN" pad="2"/>
 <contactref element="R15" pad="1"/>
 <wire x1="30.598440625" y1="24.375440625" x2="30.598440625" y2="24.451640625" width="0.254" layer="1"/>
-<wire x1="30.598440625" y1="24.451640625" x2="31.5722" y2="25.4254" width="0.254" layer="1"/>
-<via x="31.5722" y="25.4254" extent="1-16" drill="0.381"/>
-<wire x1="31.5722" y1="25.4254" x2="31.4334" y2="25.4254" width="0.254" layer="16"/>
+<wire x1="30.598440625" y1="24.451640625" x2="31.623" y2="25.4" width="0.254" layer="1"/>
+<via x="31.623" y="25.4" extent="1-16" drill="0.381"/>
+<wire x1="31.623" y1="25.4" x2="31.4334" y2="25.4254" width="0.254" layer="16"/>
 <wire x1="31.4334" y1="25.4254" x2="29.5148" y2="23.5068" width="0.254" layer="16"/>
 </signal>
 <signal name="LED0">
@@ -3816,10 +3832,10 @@ design rules under a new name.</description>
 <contactref element="R16" pad="1"/>
 <contactref element="YELLOW" pad="2"/>
 <wire x1="32.8558" y1="24.13" x2="34.036" y2="25.3102" width="0.254" layer="16"/>
-<wire x1="34.036" y1="25.3102" x2="34.036" y2="25.6032" width="0.254" layer="16"/>
-<via x="34.036" y="25.6032" extent="1-16" drill="0.381"/>
-<wire x1="34.036" y1="25.6032" x2="33.036840625" y2="24.604040625" width="0.254" layer="1"/>
-<wire x1="33.036840625" y1="24.604040625" x2="32.87615625" y2="24.604040625" width="0.254" layer="1"/>
+<wire x1="34.036" y1="25.3102" x2="34.2646" y2="25.5016" width="0.254" layer="16"/>
+<via x="34.2646" y="25.5016" extent="1-16" drill="0.381"/>
+<wire x1="34.2646" y1="25.5016" x2="33.036840625" y2="24.604040625" width="0.254" layer="1"/>
+<wire x1="33.036840625" y1="24.604040625" x2="32.92695625" y2="24.654840625" width="0.254" layer="1"/>
 </signal>
 <signal name="LED2">
 <contactref element="HAND_MICRO" pad="52"/>
@@ -3831,7 +3847,7 @@ design rules under a new name.</description>
 <wire x1="28.956" y1="18.7198" x2="27.8638" y2="18.7198" width="0.254" layer="1"/>
 <wire x1="32.4104" y1="19.6342" x2="33.9344" y2="22.3266" width="0.254" layer="1"/>
 <wire x1="33.9344" y1="22.3266" x2="33.9344" y2="23.258115625" width="0.254" layer="1"/>
-<wire x1="33.9344" y1="23.258115625" x2="34.078240625" y2="23.40195625" width="0.254" layer="1"/>
+<wire x1="33.9344" y1="23.258115625" x2="34.129040625" y2="23.45275625" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>
