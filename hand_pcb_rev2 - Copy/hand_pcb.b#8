@@ -1786,6 +1786,7 @@ design rules under a new name.</description>
 <element name="IMF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="50.4698" y="40.7924"/>
 <element name="PYF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="22.479" y="31.9278"/>
 <element name="TF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="24.0792" y="9.9314"/>
+<element name="C19" library="rcl" package="C0402" value="0.1" x="33.6804" y="38.9128" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2137,6 +2138,10 @@ design rules under a new name.</description>
 <vertex x="44.0436" y="45.2882"/>
 <vertex x="35.3314" y="45.2882"/>
 </polygon>
+<contactref element="C19" pad="2"/>
+<wire x1="33.6804" y1="38.2628" x2="33.6804" y2="37.338" width="0.254" layer="1"/>
+<wire x1="33.6804" y1="37.338" x2="34.3625" y2="36.6559" width="0.254" layer="1"/>
+<wire x1="34.3625" y1="36.6559" x2="36.0049" y2="36.6559" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="INDEX" pad="3"/>
@@ -2378,7 +2383,10 @@ design rules under a new name.</description>
 <wire x1="15.2527" y1="16.2433" x2="15.28150625" y2="16.26529375" width="0.254" layer="1"/>
 <wire x1="15.28150625" y1="16.26529375" x2="15.28150625" y2="16.2602125" width="0.254" layer="1"/>
 <via x="15.28150625" y="16.2602125" extent="1-16" drill="0.381"/>
-<wire x1="13.0674" y1="6.2366" x2="14.0716" y2="6.1468" width="0" layer="19" extent="1-1"/>
+<contactref element="C19" pad="1"/>
+<wire x1="14.0716" y1="6.1468" x2="13.0674" y2="6.2366" width="0" layer="19" extent="1-1"/>
+<wire x1="36.0049" y1="39.9059" x2="34.0235" y2="39.9059" width="0.254" layer="1"/>
+<wire x1="34.0235" y1="39.9059" x2="33.6804" y2="39.5628" width="0.254" layer="1"/>
 </signal>
 <signal name="IDX1">
 <contactref element="INDEX" pad="1"/>
