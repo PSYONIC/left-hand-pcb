@@ -8080,30 +8080,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="223.52" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="HAND_MICRO" gate="G$1" pin="VDDA"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="101.6" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="104.14" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<junction x="33.02" y="109.22"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="HAND_MICRO" gate="G$1" pin="VREFH"/>
-<wire x1="48.26" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<junction x="33.02" y="104.14"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="27.94" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
-<junction x="27.94" y="109.22"/>
-</segment>
-</net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="HAND_MICRO" gate="G$1" pin="VREF_OUT"/>
@@ -8520,6 +8496,35 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="TF" gate="G$1" pin="P$1"/>
 <pinref part="THMB" gate="G$1" pin="NFAULT"/>
 <wire x1="185.42" y1="5.08" x2="180.34" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<junction x="27.94" y="109.22"/>
+<pinref part="HAND_MICRO" gate="G$1" pin="VDDA"/>
+<wire x1="48.26" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="109.22" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<junction x="30.48" y="109.22"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="HAND_MICRO" gate="G$1" pin="VREFH"/>
+<wire x1="48.26" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="104.14" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<junction x="43.18" y="104.14"/>
+<wire x1="43.18" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="101.6" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

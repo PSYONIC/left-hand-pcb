@@ -2384,9 +2384,9 @@ design rules under a new name.</description>
 <wire x1="15.28150625" y1="16.26529375" x2="15.28150625" y2="16.2602125" width="0.254" layer="1"/>
 <via x="15.28150625" y="16.2602125" extent="1-16" drill="0.381"/>
 <contactref element="C19" pad="1"/>
-<wire x1="14.0716" y1="6.1468" x2="13.0674" y2="6.2366" width="0" layer="19" extent="1-1"/>
 <wire x1="36.0049" y1="39.9059" x2="34.0235" y2="39.9059" width="0.254" layer="1"/>
 <wire x1="34.0235" y1="39.9059" x2="33.6804" y2="39.5628" width="0.254" layer="1"/>
+<wire x1="13.0674" y1="6.2366" x2="14.0716" y2="6.1468" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IDX1">
 <contactref element="INDEX" pad="1"/>
