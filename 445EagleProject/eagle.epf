@@ -349,5 +349,12 @@ UsedLibrary="/Applications/EAGLE-7.5.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-7.5.0/lbr/zilog.lbr"
 UsedLibrary="/Users/michaelfatina/Documents/eagle/hand_pcb/SparkFun1.lbr"
 
+[Win_1]
+Type="Control Panel"
+Loc="4 23 603 422"
+State=2
+Number=0
+
 [Desktop]
 Screen="1920 1200"
+Window="Win_1"
