@@ -1828,76 +1828,76 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PINKY" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="13" y="42" locked="yes" rot="R183"/>
-<element name="RING" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="26" y="48" locked="yes" rot="R183"/>
-<element name="MIDDLE" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="42" y="49" locked="yes" rot="R183"/>
-<element name="INDEX" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="55" y="50" locked="yes" rot="R180"/>
-<element name="THUMB_A" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="39" y="10" locked="yes" rot="R90"/>
-<element name="THUMB_B" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="40" y="22" locked="yes" rot="R80"/>
-<element name="PKYRNG" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="24" y="37" locked="yes"/>
-<element name="INDMID" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="57.5" y="40.5" locked="yes" rot="R270"/>
-<element name="THMB" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="28.5" y="10.5" locked="yes" rot="R270"/>
-<element name="HAND_MICRO" library="445-eagle-lib" package="LQFP-64-10-10" value="MK20DX256VLH7" x="18.5" y="19" locked="yes" rot="R270"/>
-<element name="BOOTLOADER" library="445-eagle-lib" package="QFN16" value="MKL02Z32CORRECT" x="6.5" y="19.5" locked="yes" rot="R90"/>
-<element name="R1" library="rcl" package="R0402" value="33" x="10.5" y="32.1858" locked="yes" rot="R270"/>
-<element name="R2" library="rcl" package="R0402" value="33" x="8.4492" y="29.9586" locked="yes" rot="R270"/>
-<element name="C1" library="rcl" package="C0603" value="0.01" x="54.111" y="34.5334" locked="yes"/>
-<element name="C2" library="rcl" package="C0603" value="2.2" x="59.6524" y="34.0334" locked="yes" rot="R270"/>
-<element name="C3" library="rcl" package="C0603" value="10" x="57.1272" y="34.5384" locked="yes"/>
-<element name="C4" library="rcl" package="C0603" value="0.01" x="30.5" y="33.4586" locked="yes" rot="R90"/>
-<element name="C5" library="rcl" package="C0603" value="2.2" x="30.5037" y="39.4977" locked="yes" rot="R270"/>
-<element name="C6" library="rcl" package="C0603" value="10" x="30.4976" y="36.4878" locked="yes" rot="R90"/>
-<element name="C7" library="rcl" package="C0603" value="0.01" x="24.4586" y="3.9746" locked="yes"/>
-<element name="C8" library="rcl" package="C0603" value="2.2" x="30" y="3.5" locked="yes" rot="R270"/>
-<element name="C9" library="rcl" package="C0603" value="10" x="27.4776" y="3.9786" locked="yes"/>
-<element name="O16" library="445-eagle-lib" package="NX3225SA" value="16MHz" x="11" y="11" locked="yes" rot="R270"/>
-<element name="USB" library="445-eagle-lib" package="10118194-0001LF" value="10118194-0001LF" x="2" y="35" locked="yes" rot="R272.5"/>
-<element name="RST" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="7" y="25.019" locked="yes"/>
-<element name="D-" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="8.5442" y="35.7968" locked="yes" rot="R180"/>
-<element name="D+" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="8.4492" y="33.9332" locked="yes" rot="R180"/>
-<element name="U$1" library="445-eagle-lib" package="TSSOP16" value="TCA9534TSSOP" x="38.9299" y="38.9309" locked="yes" rot="R270"/>
-<element name="R3" library="rcl" package="R0402" value="470" x="19" y="29" locked="yes" rot="R270"/>
-<element name="C10" library="rcl" package="C0402" value="2.2" x="15" y="29" locked="yes" rot="R270"/>
-<element name="C11" library="rcl" package="C0402" value="0.1" x="17" y="29" rot="R90"/>
-<element name="C12" library="rcl" package="C0402" value="0.1" x="13" y="29" locked="yes" rot="R270"/>
-<element name="C13" library="rcl" package="C0402" value="0.1" x="10" y="23" locked="yes" rot="R90"/>
-<element name="C14" library="rcl" package="C0402" value="0.1" x="22" y="28" locked="yes" rot="R180"/>
-<element name="C15" library="rcl" package="C0402" value="0.1" x="10" y="16" locked="yes" rot="R270"/>
-<element name="C16" library="rcl" package="C0402" value="0.1" x="22.6738" y="11.2892" locked="yes" rot="R180"/>
-<element name="U$3" library="445-eagle-lib" package="L0603" value="" x="13.5" y="32" locked="yes"/>
-<element name="U$4" library="445-eagle-lib" package="L0603" value="" x="16.1776" y="20.937" locked="yes" rot="MR0"/>
-<element name="R4" library="rcl" package="R1206" value="0.2" x="31.5468" y="10.5156" locked="yes" rot="MR90"/>
-<element name="R5" library="rcl" package="R1206" value="0.2" x="25.4508" y="10.541" locked="yes" rot="MR90"/>
-<element name="R6" library="rcl" package="R1206" value="0.2" x="60.5536" y="40.4876" locked="yes" rot="MR90"/>
-<element name="R7" library="rcl" package="R1206" value="0.2" x="54.4576" y="40.4876" locked="yes" rot="MR90"/>
-<element name="R8" library="rcl" package="R1206" value="0.2" x="23.9776" y="40.0304" locked="yes" rot="MR0"/>
-<element name="R9" library="rcl" package="R1206" value="0.2" x="23.9776" y="33.9598" locked="yes" rot="MR0"/>
-<element name="GND" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="4.9784" y="25.019" locked="yes" rot="R90"/>
+<element name="PINKY" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="13" y="42" rot="R183"/>
+<element name="RING" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="26" y="48" rot="R183"/>
+<element name="MIDDLE" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="42" y="49" rot="R183"/>
+<element name="INDEX" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="55" y="50" rot="R180"/>
+<element name="THUMB_A" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="39" y="10" rot="R90"/>
+<element name="THUMB_B" library="445-eagle-lib" package="DF57H-6P-TOP" value="DF57H-6PTOP" x="40" y="22" rot="R80"/>
+<element name="PKYRNG" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="24" y="37"/>
+<element name="INDMID" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="57.5" y="40.5" rot="R270"/>
+<element name="THMB" library="445-eagle-lib" package="WQFN-16" value="DRV8833" x="28.5" y="10.5" rot="R270"/>
+<element name="HAND_MICRO" library="445-eagle-lib" package="LQFP-64-10-10" value="MK20DX256VLH7" x="18.5" y="19" rot="R270"/>
+<element name="BOOTLOADER" library="445-eagle-lib" package="QFN16" value="MKL02Z32CORRECT" x="6.5" y="19.5" rot="R90"/>
+<element name="R1" library="rcl" package="R0402" value="33" x="10.5" y="32.1858" rot="R270"/>
+<element name="R2" library="rcl" package="R0402" value="33" x="8.4492" y="29.9586" rot="R270"/>
+<element name="C1" library="rcl" package="C0603" value="0.01" x="54.111" y="34.5334"/>
+<element name="C2" library="rcl" package="C0603" value="2.2" x="59.6524" y="34.0334" rot="R270"/>
+<element name="C3" library="rcl" package="C0603" value="10" x="57.1272" y="34.5384"/>
+<element name="C4" library="rcl" package="C0603" value="0.01" x="30.5" y="33.4586" rot="R90"/>
+<element name="C5" library="rcl" package="C0603" value="2.2" x="30.5037" y="39.4977" rot="R270"/>
+<element name="C6" library="rcl" package="C0603" value="10" x="30.4976" y="36.4878" rot="R90"/>
+<element name="C7" library="rcl" package="C0603" value="0.01" x="24.4586" y="3.9746"/>
+<element name="C8" library="rcl" package="C0603" value="2.2" x="30" y="3.5" rot="R270"/>
+<element name="C9" library="rcl" package="C0603" value="10" x="27.4776" y="3.9786"/>
+<element name="O16" library="445-eagle-lib" package="NX3225SA" value="16MHz" x="11" y="11" rot="R270"/>
+<element name="USB" library="445-eagle-lib" package="10118194-0001LF" value="10118194-0001LF" x="2" y="35" rot="R272.5"/>
+<element name="RST" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="7" y="25.019"/>
+<element name="D-" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="8.5442" y="35.7968" rot="R180"/>
+<element name="D+" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="8.4492" y="33.9332" rot="R180"/>
+<element name="U$1" library="445-eagle-lib" package="TSSOP16" value="TCA9534TSSOP" x="38.9299" y="38.9309" rot="R270"/>
+<element name="R3" library="rcl" package="R0402" value="470" x="19" y="29" rot="R270"/>
+<element name="C10" library="rcl" package="C0402" value="2.2" x="15" y="29" rot="R270"/>
+<element name="C11" library="rcl" package="C0402" value="10u" x="17" y="29" rot="R90"/>
+<element name="C12" library="rcl" package="C0402" value="10u" x="13" y="29" rot="R270"/>
+<element name="C13" library="rcl" package="C0402" value="10u" x="10" y="23" rot="R90"/>
+<element name="C14" library="rcl" package="C0402" value="10u" x="22" y="28" rot="R180"/>
+<element name="C15" library="rcl" package="C0402" value="10u" x="10" y="16" rot="R270"/>
+<element name="C16" library="rcl" package="C0402" value="10u" x="22.6738" y="11.2892" rot="R180"/>
+<element name="U$3" library="445-eagle-lib" package="L0603" value="" x="13.5" y="32"/>
+<element name="U$4" library="445-eagle-lib" package="L0603" value="" x="16.1776" y="20.937" rot="MR0"/>
+<element name="R4" library="rcl" package="R1206" value="0.2" x="31.5468" y="10.5156" rot="MR90"/>
+<element name="R5" library="rcl" package="R1206" value="0.2" x="25.4508" y="10.541" rot="MR90"/>
+<element name="R6" library="rcl" package="R1206" value="0.2" x="60.5536" y="40.4876" rot="MR90"/>
+<element name="R7" library="rcl" package="R1206" value="0.2" x="54.4576" y="40.4876" rot="MR90"/>
+<element name="R8" library="rcl" package="R1206" value="0.2" x="23.9776" y="40.0304" rot="MR0"/>
+<element name="R9" library="rcl" package="R1206" value="0.2" x="23.9776" y="33.9598" rot="MR0"/>
+<element name="GND" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="4.9784" y="25.019" rot="R90"/>
 <element name="U$2" library="445-eagle-lib" package="PG-TO-252-3" value="SPD15P10PLG" x="32.6644" y="36.2585" rot="MR270"/>
-<element name="R10" library="rcl" package="R0603" value="1k" x="16.8021" y="7.0866" locked="yes" rot="R270"/>
-<element name="R11" library="rcl" package="R0603" value="1k" x="18.8214" y="7.0866" locked="yes" rot="R270"/>
-<element name="R12" library="rcl" package="R0603" value="1k" x="18.9992" y="17.8054" locked="yes" rot="MR0"/>
-<element name="R13" library="rcl" package="R0603" value="1k" x="19.1897" y="19.8374" locked="yes" rot="MR0"/>
-<element name="U$5" library="445-eagle-lib" package="PSENSE" value="PSENSE" x="32.8422" y="51.8414" locked="yes"/>
-<element name="U$7" library="445-eagle-lib" package="PSENSE" value="PSENSE" x="45.7454" y="41.5544" locked="yes"/>
-<element name="U$6" library="445-eagle-lib" package="PSENSE2" value="PSENSE2" x="48.2854" y="49.911" locked="yes" rot="R90"/>
-<element name="U$8" library="445-eagle-lib" package="PSENSE4" value="PSENSE4" x="62.1538" y="52.2986" locked="yes"/>
+<element name="R10" library="rcl" package="R0603" value="1k" x="16.8021" y="7.0866" rot="R270"/>
+<element name="R11" library="rcl" package="R0603" value="1k" x="18.8214" y="7.0866" rot="R270"/>
+<element name="R12" library="rcl" package="R0603" value="1k" x="18.9992" y="17.8054" rot="MR0"/>
+<element name="R13" library="rcl" package="R0603" value="1k" x="19.1897" y="19.8374" rot="MR0"/>
+<element name="U$5" library="445-eagle-lib" package="PSENSE" value="PSENSE" x="32.8422" y="51.8414"/>
+<element name="U$7" library="445-eagle-lib" package="PSENSE" value="PSENSE" x="45.7454" y="41.5544"/>
+<element name="U$6" library="445-eagle-lib" package="PSENSE2" value="PSENSE2" x="48.2854" y="49.911" rot="R90"/>
+<element name="U$8" library="445-eagle-lib" package="PSENSE4" value="PSENSE4" x="62.1538" y="52.2986"/>
 <element name="U$9" library="445-eagle-lib" package="MIC39100" value="MIC391003.3" x="8.9662" y="5.0038" rot="MR270"/>
-<element name="C17" library="rcl" package="C0603" value="" x="6.7056" y="5.4356" locked="yes" rot="R270"/>
-<element name="C18" library="rcl" package="C0603" value="" x="8.5598" y="2.794" locked="yes" rot="R180"/>
-<element name="RED" library="445-eagle-lib" package="L0603" value="LED0603" x="32.1564" y="21.4884" locked="yes" rot="R65"/>
-<element name="GREEN" library="445-eagle-lib" package="L0603" value="LED0603" x="29.9974" y="23.7744" locked="yes" rot="R45"/>
-<element name="R14" library="rcl" package="R0603" value="100" x="31.496" y="20.0914" locked="yes" rot="MR180"/>
-<element name="R15" library="rcl" package="R0603" value="200" x="29.5148" y="22.6568" locked="yes" rot="MR270"/>
-<element name="R16" library="rcl" package="R0603" value="200" x="33.7058" y="24.13" locked="yes" rot="MR180"/>
-<element name="YELLOW" library="445-eagle-lib" package="L0603" value="LED0603" x="33.528" y="24.0538" locked="yes" rot="R135"/>
+<element name="C17" library="rcl" package="C0603" value="10u" x="6.7056" y="5.4356" rot="R270"/>
+<element name="C18" library="rcl" package="C0603" value="50u" x="8.5598" y="2.794" rot="R180"/>
+<element name="RED" library="445-eagle-lib" package="L0603" value="LED0603" x="32.1564" y="21.4884" rot="R65"/>
+<element name="GREEN" library="445-eagle-lib" package="L0603" value="LED0603" x="29.9974" y="23.7744" rot="R45"/>
+<element name="R14" library="rcl" package="R0603" value="100" x="31.496" y="20.0914" rot="MR180"/>
+<element name="R15" library="rcl" package="R0603" value="200" x="29.5148" y="22.6568" rot="MR270"/>
+<element name="R16" library="rcl" package="R0603" value="200" x="33.7058" y="24.13" rot="MR180"/>
+<element name="YELLOW" library="445-eagle-lib" package="L0603" value="LED0603" x="33.528" y="24.0538" rot="R135"/>
 <element name="U$10" library="445-eagle-lib" package="THRUHOLE2" value="THRUHOLE2" x="33.4772" y="43.5356"/>
 <element name="U$11" library="445-eagle-lib" package="THRUHOLEI2C" value="THRUHOLEI2C" x="16.4338" y="2.4892" rot="R180"/>
 <element name="U$12" library="445-eagle-lib" package="THRUHOLEI2C" value="THRUHOLEI2C" x="3.5306" y="14.7828" rot="R272"/>
 <element name="IMF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="50.4698" y="40.7924"/>
 <element name="PYF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="22.479" y="31.9278"/>
 <element name="TF" library="445-eagle-lib" package="TESTPAD" value="TESTPAD" x="24.0792" y="9.9314"/>
-<element name="C19" library="rcl" package="C0402" value="0.1" x="33.6804" y="38.9128" rot="R270"/>
+<element name="C19" library="rcl" package="C0402" value="10u" x="33.6804" y="38.9128" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2149,12 +2149,11 @@ design rules under a new name.</description>
 <wire x1="22.0726" y1="28.2956" x2="26.4287" y2="28.2956" width="0.254" layer="15"/>
 <wire x1="30.5037" y1="38.6477" x2="30.4976" y2="38.6477" width="0.381" layer="1"/>
 <wire x1="30.4976" y1="38.6477" x2="30.4976" y2="37.3378" width="0.381" layer="1"/>
-<wire x1="5.9055" y1="19.5" x2="6.0579" y2="19.939" width="0.381" layer="1"/>
-<via x="6.0579" y="19.939" extent="1-16" drill="0.3048"/>
-<via x="4.572" y="21.5392" extent="1-16" drill="0.3048"/>
-<via x="6.985" y="19.5707" extent="1-16" drill="0.3048"/>
-<via x="6.096" y="19.0627" extent="1-16" drill="0.3048"/>
-<wire x1="6.096" y1="19.0627" x2="5.8674" y2="18.923" width="0.762" layer="15"/>
+<wire x1="5.9055" y1="19.5" x2="6.0833" y2="19.9136" width="0.381" layer="1"/>
+<via x="6.0833" y="19.9136" extent="1-16" drill="0.3048"/>
+<via x="6.9088" y="19.5199" extent="1-16" drill="0.3048"/>
+<via x="6.1214" y="19.0881" extent="1-16" drill="0.3048"/>
+<wire x1="6.1214" y1="19.0881" x2="5.8674" y2="18.923" width="0.762" layer="15"/>
 <wire x1="6.731" y1="19.7358" x2="6.731" y2="20.0787" width="0.762" layer="15"/>
 <wire x1="6.731" y1="20.0787" x2="3.3147" y2="23.495" width="0.762" layer="15"/>
 <wire x1="3.3147" y1="23.495" x2="3.3147" y2="29.278165625" width="0.762" layer="15"/>
@@ -2163,7 +2162,7 @@ design rules under a new name.</description>
 <wire x1="9.1821" y1="14.7447" x2="7.3279" y2="13.9319" width="0.254" layer="1"/>
 <via x="7.3279" y="13.9319" extent="1-16" drill="0.381"/>
 <wire x1="7.3279" y1="13.9319" x2="7.0866" y2="14.1732" width="0.254" layer="15"/>
-<wire x1="7.0866" y1="14.1732" x2="6.985" y2="19.5707" width="0.254" layer="15"/>
+<wire x1="7.0866" y1="14.1732" x2="6.9088" y2="19.5199" width="0.254" layer="15"/>
 <wire x1="7.0866" y1="15.0495" x2="7.0866" y2="14.1732" width="0.254" layer="1"/>
 <wire x1="7.0866" y1="14.1732" x2="7.3279" y2="13.9319" width="0.254" layer="1"/>
 <via x="25.7556" y="29.1846" extent="1-16" drill="0.3856"/>
@@ -2201,18 +2200,10 @@ design rules under a new name.</description>
 <wire x1="38.1725" y1="36.6559" x2="40.9448" y2="33.8836" width="0.254" layer="1"/>
 <wire x1="40.9448" y1="33.8836" x2="43.7515" y2="33.8836" width="0.254" layer="1"/>
 <wire x1="43.7515" y1="33.8836" x2="43.7769" y2="33.8582" width="0.254" layer="1"/>
-<contactref element="R15" pad="2"/>
-<contactref element="R14" pad="2"/>
 <contactref element="R16" pad="2"/>
-<wire x1="31.8262" y1="19.2024" x2="29.8704" y2="19.2024" width="0.254" layer="16"/>
-<wire x1="29.8704" y1="19.2024" x2="29.5148" y2="19.4564" width="0.254" layer="16"/>
-<wire x1="29.5148" y1="19.4564" x2="29.5148" y2="21.8068" width="0.254" layer="16"/>
 <wire x1="34.5558" y1="24.13" x2="36.7148" y2="26.289" width="0.254" layer="16"/>
 <wire x1="36.7148" y1="26.289" x2="38.4556" y2="26.289" width="0.254" layer="16"/>
-<wire x1="32.346" y1="20.0914" x2="32.346" y2="21.9202" width="0.254" layer="16"/>
 <wire x1="32.346" y1="21.9202" x2="34.5558" y2="24.13" width="0.254" layer="16"/>
-<wire x1="31.8262" y1="19.2024" x2="32.346" y2="19.7222" width="0.254" layer="16"/>
-<wire x1="32.346" y1="19.7222" x2="32.346" y2="20.0914" width="0.254" layer="16"/>
 <contactref element="U$10" pad="G"/>
 <wire x1="34.7472" y1="43.5356" x2="34.7472" y2="41.021" width="1.27" layer="16"/>
 <wire x1="34.7472" y1="41.021" x2="36.703" y2="39.0652" width="1.27" layer="16"/>
@@ -2245,14 +2236,16 @@ design rules under a new name.</description>
 <contactref element="BOOTLOADER" pad="TH"/>
 <wire x1="7.0866" y1="15.0495" x2="6.25" y2="15.8861" width="0.254" layer="1"/>
 <wire x1="6.25" y1="15.8861" x2="6.25" y2="17.525" width="0.254" layer="1"/>
-<wire x1="4.572" y1="21.5392" x2="4.572" y2="21.4376" width="0.254" layer="15"/>
-<wire x1="4.572" y1="21.4376" x2="6.096" y2="19.9136" width="0.254" layer="15"/>
-<wire x1="6.985" y1="19.5707" x2="6.6421" y2="19.5707" width="0.254" layer="15"/>
+<wire x1="6.9088" y1="19.5199" x2="6.6421" y2="19.5707" width="0.254" layer="15"/>
 <wire x1="6.6421" y1="19.5707" x2="6.1214" y2="19.05" width="0.254" layer="15"/>
 <wire x1="6.1214" y1="19.05" x2="6.6548" y2="19.05" width="0.254" layer="15"/>
 <wire x1="6.6548" y1="19.05" x2="7.0612" y2="19.4564" width="0.254" layer="15"/>
-<wire x1="6.985" y1="19.5707" x2="6.5707" y2="19.5707" width="0.254" layer="1"/>
+<wire x1="6.9088" y1="19.5199" x2="6.5707" y2="19.5707" width="0.254" layer="1"/>
 <wire x1="6.5707" y1="19.5707" x2="6.5" y2="19.5" width="0.254" layer="1"/>
+<contactref element="R15" pad="2"/>
+<contactref element="R14" pad="2"/>
+<wire x1="32.346" y1="21.9202" x2="29.5148" y2="21.8068" width="0" layer="19" extent="16-16"/>
+<wire x1="32.346" y1="20.0914" x2="32.346" y2="21.9202" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="INDEX" pad="3"/>
