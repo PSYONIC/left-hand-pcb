@@ -1,1 +1,1 @@
-PCB for right hand
+PCB for left hand
